@@ -1,0 +1,19 @@
+{
+    "downloads_folder": "C:/Users/MaxDi/Downloads",
+    "folders": {
+        "images": "C:/Users/MaxDi/Pictures",
+        "documents": "C:/Users/MaxDi/Documents",
+        "videos": "C:/Users/MaxDi/Videos",
+        "music": "C:/Users/MaxDi/Music",
+        "archives": "C:/Users/MaxDi/Archives",
+        "executables": "C:/Users/MaxDi/Executables"
+    },
+    "extensions": {
+        "images": ["jpg", "jpeg", "png", "gif"],
+        "documents": ["pdf", "docx", "txt"],
+        "videos": ["mp4", "avi"],
+        "music": ["mp3", "wav"],
+        "archives": ["zip", "rar"],
+        "executables": ["exe", "msi"]
+    }
+}
