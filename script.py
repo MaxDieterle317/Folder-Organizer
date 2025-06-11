@@ -25,8 +25,8 @@ FOLDER_MAP = {
 }
 
 # Define the default folder locations (change these as needed)
-DOWNLOADS = Path("C:/Users/MaxDi/Downloads")         # Folder where files are downloaded
-HOME = Path("C:/Users/MaxDi/OneDrive/Desktop/Home")  # Base location where organized folders will be created
+DOWNLOADS = Path("Put your download folder directory here")         # Folder where files are downloaded
+HOME = Path("Put where you want the folders here")  # Base location where organized folders will be created
 HOME.mkdir(parents=True, exist_ok=True)              # Create the HOME folder if it doesn't already exist
 
 # Mapping of file categories to their destination folders
@@ -127,10 +127,10 @@ if __name__ == "__main__":
 # Open Command Prompt (Terminal), then type:
 #
 # 1. Regular Mode (will move files):
-#    python "C:\Users\MaxDi\OneDrive\Documents\GitHub\Python Script Folder Organizer\downloads_organizer\script.py" --config config.json
+#    python "Directory where script is located" --config config.json
 #
 # 2. Dry Run Mode (just shows what would happen without moving files):
-#    python "C:\Users\MaxDi\OneDrive\Documents\GitHub\Python Script Folder Organizer\downloads_organizer\script.py" --config config.json --dry-run
+#    python "Directory where script is located" --config config.json --dry-run
 #
 # Make sure Python is installed and added to your PATH.
 # ---------------------------------------
