@@ -1,4 +1,4 @@
-{
+{ 
     "downloads_folder": "C:/Users/MaxDi/Downloads",
     "folders": {
         "images": "C:/Users/MaxDi/Pictures",
@@ -17,3 +17,6 @@
         "executables": ["exe", "msi"]
     }
 }
+
+# This file is an example of what your JSON folder might look like depending on what file types you want to move/where your directories will be. Hopefully this goes without saying, but 
+DO NOT use this for your own JSON file if downloading my script as it will not work. 
